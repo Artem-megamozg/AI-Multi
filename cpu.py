@@ -4,8 +4,8 @@ from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 size = 224
 
-training_set = image_dataset_from_directory("aidata/train", shuffle=True, batch_size=32, image_size=(size, size))
-val_dataset = image_dataset_from_directory("aidata/val", shuffle=True, batch_size=32, image_size=(size, size))
+training_set = image_dataset_from_directory("../aidata/train", shuffle=True, batch_size=32, image_size=(size, size))
+val_dataset = image_dataset_from_directory("../aidata/val", shuffle=True, batch_size=32, image_size=(size, size))
 
 data_augmentation = keras.Sequential(
     [keras.layers.RandomFlip("horizontal_and_vertical"),

@@ -1,0 +1,33 @@
+import subprocess
+
+# Create and start the processes
+proc0 = subprocess.Popen(['python', 'GPU/0.py'])
+proc1 = subprocess.Popen(['python', 'GPU/1.py'])
+proc2 = subprocess.Popen(['python', 'GPU/2.py'])
+proc3 = subprocess.Popen(['python', 'GPU/3.py'])
+proc4 = subprocess.Popen(['python', 'GPU/4.py'])
+proc5 = subprocess.Popen(['python', 'GPU/5.py'])
+proc6 = subprocess.Popen(['python', 'GPU/6.py'])
+proc7 = subprocess.Popen(['python', 'GPU/7.py'])
+proc8 = subprocess.Popen(['python', 'GPU/8.py'])
+proc9 = subprocess.Popen(['python', 'GPU/9.py'])
+proc10 = subprocess.Popen(['python', 'GPU/10.py'])
+proc11 = subprocess.Popen(['python', 'GPU/11.py'])
+proc12 = subprocess.Popen(['python', 'GPU/12.py'])
+proc13 = subprocess.Popen(['python', 'GPU/13.py'])
+
+# Wait for the processes to finish
+proc0.wait()
+proc1.wait()
+proc2.wait()
+proc3.wait()
+proc4.wait()
+proc5.wait()
+proc6.wait()
+proc7.wait()
+proc8.wait()
+proc9.wait()
+proc10.wait()
+proc11.wait()
+proc12.wait()
+proc13.wait()

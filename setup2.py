@@ -11,7 +11,7 @@ def run_command(command):
 
 run_command("pip3 install torch torchvision torchaudio")
 
-run_command("pip install nvidia-pyindex")
+# run_command("pip install nvidia-pyindex")
 
-run_command("pip install nvidia-nccl")
+# run_command("pip install nvidia-nccl")
 run_command("sudo apt install gpustat")
